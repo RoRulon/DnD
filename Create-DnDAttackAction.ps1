@@ -20,6 +20,7 @@ Planned Updates:
 0.7	Add functionality for any other actions or attacks that require dice rolling syntax.
 0.8	Quality of life updates, colour, tweaks and improvements to the process.
 1.0	Fully functioning version.
+#>
 
 #--------------------------------------------------
 #Script
@@ -63,7 +64,7 @@ do {
 	
 	Write-Host "The string is now copied to your clipboard, you can now paste it into the Actions Description window on DnDBeyond, and format it as needed."
 	
-	($Answer = Read-Host "Do you want to create another attack? (y/n))")
+	($Answer = Read-Host "Do you want to create another attack? (y/n)")
 	
 }
 
